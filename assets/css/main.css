@@ -2930,7 +2930,7 @@ input, select, textarea {
 	[data-title]:hover::before {
 		content: attr(data-title);
 		position: absolute;
-		bottom: -2em;
+		bottom: 3em;
 		display: inline-block;
 		padding: 0.1em 0.3em;
 		border-radius: 0.4em;
