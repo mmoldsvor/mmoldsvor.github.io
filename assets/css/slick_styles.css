@@ -1,3 +1,7 @@
+.slick-slide img{
+    width:100% !important;
+}
+
 .slick-dots li button {
     width: 10px !important;
     height: 10px !important;
