@@ -1,0 +1,10 @@
+.slick-dots li button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: #ffffff !important;
+}
+
+li.slick-active{
+    opacity: .5! important;
+}

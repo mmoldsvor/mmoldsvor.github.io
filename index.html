@@ -1,15 +1,14 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Martin Moldsvor Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/slick_styles.css" />
+		<link rel="stylesheet" href="assets/slick/slick.css" />
+		<link rel="stylesheet" href="assets/slick/slick-theme.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="https://kit.fontawesome.com/267876eaec.js" crossorigin="anonymous"></script>
 	</head>
@@ -178,25 +177,20 @@
 				</a>
 			</section>
 
-			<section id="six" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="images/DrawingMachine.png" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>Drawing & Design</h2>
-						<p>I'm also really passionate about drawing and designing things. </p>
-                        <p>Click to view some of my artwork:</p>
-                        <ul class="actions">
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1yXfyYL8JsfLjli0qkehW-WTIs_ilyCvh" class="button">
-                                Google Drive
-                            </a></li>
-                        </ul>
-					</header>
-					<p></p>
-				</div>
-				<a href="#seven" class="goto-next scrolly">
-					<div class="next_background">Next</div>
-				</a>
-			</section>
+            <section id="six" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Drawing & Design</h2>
+							<p>I'm also really passionate about drawing and designing things. </p>
+							<p>Here is some of my artwork:</p>
+						</header>
+                        <div class="carousel" id="wrapper">
+							<div><img src="images/DrawingTest.png" alt="slider image"></div>
+							<div><img src="images/Ironman.png" alt="slider image"></div>
+							<div><img src="images/Poseidon.png" alt="slider image"></div>
+                        </div>
+					</div>
+				</section>
 
 			<!-- Five -->
 				<!--<section id="seven" class="wrapper style1 special fade-up">
@@ -264,6 +258,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+            <script src="assets/slick/slick.js"></script>
+			<script src="assets/js/image.js"></script>
 	</body>
 </html>
