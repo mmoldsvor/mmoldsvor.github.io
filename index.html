@@ -23,14 +23,16 @@
 							<ul>
 								<li><a href="#banner">Home</a></li>
 								<li>
-									<a href="#one">Projects</a>
+									<a href="#ble-curling">Projects</a>
 									<ul>
-										<li><a href="#one">Disruptive Technologies</a></li>
-										<li><a href="#two">3D Positioning</a></li>
-										<li><a href="#three">Home Automation</a></li>
-										<li><a href="#four">Games on the iOS App Store</a></li>
-										<li><a href="#five">3D Modelling</a></li>
-										<li><a href="#six">Drawing & Design</a></li>
+                                        <li><a href="#ble-curling">BLE Curling Stone</a></li>
+										<li><a href="#li-ion-charger">Li-Ion Battery Charger</a></li>
+										<li><a href="#homekit">HomeKit Sensor Bridge</a></li>
+										<li><a href="#3d-pos">3D Positioning</a></li>
+										<li><a href="#home-automation">Home Automation</a></li>
+										<li><a href="#ios-games">Games on the iOS App Store</a></li>
+										<li><a href="#3d-moddeling">3D Modelling</a></li>
+										<li><a href="#drawing">Drawing & Design</a></li>
 									</ul>
 								</li>
 								<!--<li><a href="#seven">About me</a></li>
@@ -51,13 +53,57 @@
 							<p></p>
 						</header>
 					</div>
-					<a href="#one" class="goto-next scrolly">
+					<a href="#ble-curling" class="goto-next scrolly">
+						<div class="next_background">Next</div>
+					</a>
+                </section>
+
+                <section id="ble-curling" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/curling-stone.png" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Smart Curling Stone using Bluetooth Low Energy (2021)</h2>
+						</header>
+						<p>This PCB is fitted under the handle of a curling stone, and using an Inertial Measurement Unit and a capacative touch sensor it can detect when the stone is set in play. The nRF52832 SoC provides connectivity using BLE which allows for more than 16 stones to connect to a central unit. </p>
+						<ul class="actions">
+                            <li><a href="curling-stone.html" class="button">PCB View</a></li>
+							<!--<li><a target="_blank" rel="noopener noreferrer" href="https://youtu.be/RoyyGICJHSA" class="button">Video Demo</a></li>
+							<li class="circular_li"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mmoldsvor/DisruptiveHomebridge" class="circular_button">
+								<i class="big_icon fab fa-github"></i>
+							</a></li>-->
+						</ul>
+						<div class="programming_language">
+                            <span data-title="Altium Designer"><img class="icon_image_no_color" src="images/AltiumDesigner-Icon.png"></span>
+                            <span data-title="nRF5 SDK"><img class="icon_image_no_color" src="images/nRF5SDK-Icon.png"></span>
+						</div>
+					</div>
+					<a href="#li-ion-charger" class="goto-next scrolly">
+						<div class="next_background">Next</div>
+					</a>
+				</section>
+                
+                <section id="li-ion-charger" class="spotlight style2 left">
+					<span class="image fit main"><img src="images/li-ion-chargers.png" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Lithium-Ion Battery Charger (2021)</h2>
+						</header>
+						<p>This single cell Li-Ion battery charging circuit was developed to safely include chargeable, high energy-density batteries for my future projects. Revision 2 uses a charging IC with Power-Path, allowing for dynamically allocating the power such that the application can draw current even with no battery present. Revision 3 is currently being worked on, and will include Qi wireless charging but is awaiting production.</p>
+						<ul class="actions">
+							<li><a href="li-ion-charger-rev2.html" class="button">Revision 2</a></li>
+							<li><a href="li-ion-charger-rev3.html" class="button">Revision 3</a></li>
+						</ul>
+						<div class="programming_language">
+							<span data-title="Altium Designer"><img class="icon_image_no_color" src="images/AltiumDesigner-Icon.png"></span>
+						</div>
+					</div>
+					<a href="#homekit" class="goto-next scrolly">
 						<div class="next_background">Next</div>
 					</a>
 				</section>
 
 			<!-- One -->
-				<section id="one" class="spotlight style2 right">
+				<section id="homekit" class="spotlight style2 right">
 					<span class="image fit main"><img src="images/homekit-screenshot.png" alt="" /></span>
 					<div class="content">
 						<header>
@@ -75,13 +121,13 @@
 							<span data-title="NodeJS"><img class="icon_image_no_color" src="images/NodeJS-Icon.png"></span>
 						</div>
 					</div>
-					<a href="#two" class="goto-next scrolly">
+					<a href="#3d-pos" class="goto-next scrolly">
 						<div class="next_background">Next</div>
 					</a>
 				</section>
 
 			<!-- Two -->
-				<section id="two" class="spotlight style3 left">
+				<section id="3d-pos" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="images/3DPos.png" alt="" /></span>
 					<div class="content">
 						<header>
@@ -99,13 +145,13 @@
 							<span data-title="Python"><img class="icon_image_no_color" src="images/Python-Icon.png"></span>
 						</div>
 					</div>
-					<a href="#three" class="goto-next scrolly">
+					<a href="#home-automation" class="goto-next scrolly">
 						<div class="next_background">Next</div>
 					</a>
 				</section>
 
 			<!-- Three -->
-			<section id="three" class="spotlight style4 right">
+			<section id="home-automation" class="spotlight style4 right">
 				<span class="image fit main"><img src="images/HomeAutomation.png" alt="" /></span>
 				<div class="content">
 					<header>
@@ -122,13 +168,13 @@
 						<span data-title="Python"><img class="icon_image_no_color" src="images/Python-Icon.png"></span>
 					</div>
 				</div>
-				<a href="#four" class="goto-next scrolly">
+				<a href="#ios-games" class="goto-next scrolly">
 					<div class="next_background">Next</div>
 				</a>
 			</section>
 
 			<!-- Four -->
-			<section id="four" class="spotlight style1 left">
+			<section id="ios-games" class="spotlight style1 left">
 				<span class="image fit main bottom"><img src="images/iOSGames.png" alt="" /></span>
 				<div class="content">
 					<header>
@@ -146,12 +192,12 @@
 						<span data-title="C#"><img class="icon_image_no_color" src="images/CSharp-Icon.png"></span>
 					</div>
 				</div>
-				<a href="#five" class="goto-next scrolly">
+				<a href="#3d-moddeling" class="goto-next scrolly">
 					<div class="next_background">Next</div>
 				</a>
 			</section>
 
-			<section id="five" class="spotlight style2 right">
+			<section id="3d-moddeling" class="spotlight style2 right">
 				<span class="image fit main bottom"><img src="images/3d-moddeling.png" alt="" /></span>
 				<div class="content">
 					<header>
@@ -172,12 +218,12 @@
 						<span data-title="Fusion 360"><img class="icon_image_no_color" src="images/Fusion360-Icon.png"></span>
 					</div>
 				</div>
-				<a href="#six" class="goto-next scrolly">
+				<a href="#drawing" class="goto-next scrolly">
 					<div class="next_background">Next</div>
 				</a>
 			</section>
 
-            <section id="six" class="wrapper style1 special fade-up">
+            <section id="drawing" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
 							<h2>Drawing & Design</h2>
@@ -201,7 +247,7 @@
 						<li><a href="mailto:martin@moldsvor.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; 2020 Martin Moldsvor.</li>
+						<li>&copy; 2021 Martin Moldsvor.</li>
 					</ul>
 				</footer>
 
